@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "18.1.0",
     "react-native": "0.70.6",
+    "react-native-action-sheet": "^2.2.0",
     "react-native-select-contact": "^1.6.3"
   },
   "devDependencies": {

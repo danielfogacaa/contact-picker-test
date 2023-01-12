@@ -55,7 +55,7 @@ const App = () => {
 
     let {contact, selectedPhone} = selection;
     console.log(
-      `Selected ${selectedPhone.type} phone number ${selectedPhone.number} from ${contact.name}`,
+      `Selected ${selectedPhone.type} phone number ${selectedPhone.number} from ${contact.name} - ${selection}`,
     );
     setContactSelected(oldState => ({
       ...oldState,
